@@ -1,0 +1,263 @@
+repo_name: gywns0417/Balance-Talk-Backend
+report_id: a22a0cba5f0520364b8da7156f939154
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-09T08:18:38+00:00'
+requested_by: Hanjaemo
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-12 11:20:54.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-01-26 12:43:27.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/.github/workflows/cd.yml
+  detection_source: ".github/workflows/cd.yml"
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-22 06:57:53.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-01-26 12:43:27.000000000 Z
+- name: TestNG
+  description: A testing framework inspired from JUnit and NUnit
+  website_url: http://testng.org/doc/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/8900/no-img-open-source.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-01-26 12:43:27.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend
+  detection_source: Repo Metadata
+- name: org.testng:testng
+  description: Testing framework for Java
+  version: 7.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
+  vulnerabilities:
+  - name: TestNG is vulnerable to Path Traversal
+    cve_id: CVE-2022-4065
+    cve_url: https://github.com/advisories/GHSA-rc2q-x9mf-w3vf
+    detected_date: Dec 3
+    severity: high
+    first_patched: 7.5.1
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-03 09:48:54.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-redis
+  description: Starter for using Redis key-value data store with Spring Data Redis
+    and the Lettuce client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-mail
+  description: Starter for using Java Mail and Spring Framework's email sending support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gywns0417/Balance-Talk-Backend/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Hanjaemo
+  last_updated_on: 2024-03-19 14:51:32.000000000 Z
